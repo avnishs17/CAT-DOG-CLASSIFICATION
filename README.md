@@ -20,12 +20,13 @@ The trained model is serialized and can be loaded to make predictions on new ima
 5. Output layer with softmax activation to classify 2 categories
    
 ### Training
-Model compiled with Adam optimizer, sparse categorical cross-entropy loss
-Trained for 8 epochs with a batch size of 32
-Best validation accuracy achieved: 83%
-Usage
-The trained model is serialized and saved as catdog.model file.
-It can be loaded and used to classify new cat/dog images:
+- Model compiled with Adam optimizer, sparse categorical cross-entropy loss
+- Trained for 8 epochs with a batch size of 32
+- Best validation accuracy achieved: 83%
+
+### Usage
+- The trained model is serialized and saved as catdog.model file.
+- It can be loaded and used to classify new cat/dog images:
 
 ## Notebooks
 The data processing, model training and usage examples are in the following notebooks:
